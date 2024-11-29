@@ -157,10 +157,10 @@ export default function Pay() {
         currency='ZAR'
         activityIndicatorColor="green"
         onCancel={(e) => {
-          // handle response here
+          
         }}
         onSuccess={(res) => {
-          // handle response here
+          
         }}
         autoStart={true}
       />
