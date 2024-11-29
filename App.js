@@ -26,11 +26,15 @@ import React from 'react';
 // import { PaystackProvider } from '@paystack/react-native-paystack';
 import PaymentScreen from './screens/PaymentScreen';
 import Pay from './screens/PaymentScreen';
+import Cart from './screens/Checkout';
+
+
 
 export default function App() {
   return (
     <>
-    <Pay/>
+    {/* <Pay/> */}
+    <Cart/>
     </>
   );
 }
