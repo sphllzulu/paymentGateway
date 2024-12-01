@@ -4,7 +4,7 @@ import Pay from './PaymentScreen';
 
 const Cart = () => {
   const [showPayment, setShowPayment] = useState(false);
-  const [total, setTotal] = useState(0);
+  const [total, setTotal] = useState(30000);
 
   const products = [
     { id: '1', name: 'Product 1', price: 5000 },
@@ -67,13 +67,14 @@ export default Cart;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
+    padding: 40,
     backgroundColor: '#fff',
+    color: '#fff'
   },
   heading: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 10
   },
   product: {
     flexDirection: 'row',
@@ -81,6 +82,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderBottomWidth: 1,
     borderBottomColor: '#ddd',
+    
   },
   total: {
     fontSize: 18,
