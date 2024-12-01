@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-native-paystack-app.git
+   git clone https://github.com/sphllzulu/paymentGateway.git
    cd react-native-paystack-app
    ```
 
